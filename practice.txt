@@ -1,0 +1,171 @@
+Saurabh Choudhary10:57 AM
+Basic Function Creation:
+
+Create a function named greet that takes a person's name as an argument and prints a greeting message.
+Return Statement:
+
+Write a function called square that takes a number as input and returns its square.
+Default Arguments:
+
+Define a function named power that takes two arguments, a base, and an exponent. Set the default value of the exponent to 2.
+Variable Scope:
+
+Create a function named print_global_variable that prints the value of a global variable declared outside
+the function.
+Function with Multiple Parameters:
+
+Write a function named calculate_area that takes the dimensions of a rectangle (length and width) and returns its area.
+Function with Multiple Returns:
+
+Define a function called divide that takes two numbers as input and returns both the quotient and remainder.
+Recursive Function:
+
+Implement a recursive function named factorial to calculate the factorial of a given number.
+Lambda Functions:
+
+Use a lambda function to square a list of numbers. Apply this lambda function to a list of numbers [1, 2, 3, 4, 5].
+Higher-Order Function:
+
+Write a higher-order function named apply_operation that takes two numbers and a function as arguments and applies the function to the numbers.
+Anonymous Function:
+
+Create an anonymous function that calculates the average of two numbers.
+Saurabh Choudhary10:58 AM
+Global and Local Variables:
+
+Inside a function, create a local variable with the same name as a global variable. Print both variables inside the function. Explain the output.
+Default Argument with List:
+
+Modify the greet function from question 1 to take an optional list of languages as a default argument. Print a greeting message in each language.
+
+
+
+
+Saurabh Choudhary10:31 AM
+1. Arithmetic Operators:
+
+a. Create a program that takes two numbers as input and calculates their sum, difference, product, and quotient.
+
+b. Write a program that converts temperature from Celsius to Fahrenheit using the formula: Fahrenheit = (Celsius * 9/5) + 32.
+Saurabh Choudhary10:50 AM
+2. Comparison Operators:
+
+a. Create a program that compares two numbers and prints whether they are equal, greater, or lesser.
+
+b. Write a program to check if a given year is a leap year or not using comparison operators.
+Saurabh Choudhary10:59 AM
+3. Logical Operators:
+
+a. Write a program to check if a number is between 1 and 10 (inclusive) using logical operators.
+
+b. Create a program that determines whether a student passed both math and science subjects.
+4. Assignment Operators:
+
+a. Implement a program that increments a variable by 5 using both short and normal assignment operators.
+
+b. Create a program to swap the values of two variables using assignment operators.
+6. Identity Operators:
+
+a. Create a program to compare the identity of two lists.
+
+b. Write a program that checks if two variables reference the same object.
+
+7. Membership Operators:
+
+a. Implement a program that checks if a specific element is present in a list.
+
+b. Write a program to find common elements between two lists using membership operators.
+1. Basic While Loop:
+
+a. Write a program that prints numbers from 1 to 10 using a while loop.
+
+2. User Input Loop:
+
+a. Create a program that asks the user to enter a number. Keep asking until the user enters a negative number.
+
+3. Countdown:
+
+a. Implement a program that starts from a given number and counts down to 1 using a while loop.
+
+4. Sum of Numbers:
+
+a. Write a program that calculates the sum of numbers from 1 to N, where N is entered by the user.
+Saurabh Choudhary11:00 AM
+Certainly! Here are 10 assignment questions on the topic of while loops in Python for beginners:
+
+1. Basic While Loop:
+
+a. Write a program that prints numbers from 1 to 10 using a while loop.
+
+2. User Input Loop:
+
+a. Create a program that asks the user to enter a number. Keep asking until the user enters a negative number.
+
+3. Countdown:
+
+a. Implement a program that starts from a given number and counts down to 1 using a while loop.
+
+
+
+
+4. Sum of Numbers:
+
+a. Write a program that calculates the sum of numbers from 1 to N, where N is entered by the user.
+
+5. Factorial Calculation:
+
+a. Implement a program that calculates the factorial of a given number using a while loop.
+
+6. Guessing Game:
+
+a. Develop a simple number guessing game. Generate a random number and let the user guess until they get it right.
+
+7. Password Verification:
+
+a. Create a program that asks the user to enter a password. Keep asking until the correct password
+Certainly! Here are 10 assignment questions on the topic of while loops in Python for beginners:
+
+1. Basic While Loop:
+
+a. Write a program that prints numbers from 1 to 10 using a while loop.
+
+2. User Input Loop:
+
+a. Create a program that asks the user to enter a number. Keep asking until the user enters a negative number.
+
+3. Countdown:
+
+a. Implement a program that starts from a given number and counts down to 1 using a while loop.
+
+4. Sum of Numbers:
+
+a. Write a program that calculates the su
+Saurabh Choudhary11:02 AM
+7. Password Verification:
+
+a. Create a program that asks the user to enter a password. Keep asking until the correct password is entered.
+
+8. Fibonacci Series:
+
+a. Write a program to generate the Fibonacci series up to a specified limit using a while loop.
+
+9. Multiplication Table:
+
+a. Implement a program that prints the multiplication table of a given number using a while loop.
+
+10. Palindrome Check:
+
+a. Create a program that checks if a given number is a palindrome (reads the same backward as
+
+for i in range(1,100):
+    if (i > 3 and i < 30):
+        print(i)
+tcw-txfz-yfi
+
+
+Basic Exception Handling:
+Write a Python program that takes two numbers as input from the user and performs division. Use a try and except block to handle the ZeroDivisionError. If a user tries to divide by zero, print a meaningful error message.
+Input Validation:
+Write a program that prompts the user to enter their age. Use a try and except block to handle the ValueError that may occur if the user enters a non-integer value. If a non-integer value is entered, print an error message and ask the user to enter their age again.
+Multiple Exceptions:
+Create a Python program that attempts to convert a user-input string to an integer. Use a try and except block to handle both ValueError and TypeError. Print different error messages for each type of exception.
